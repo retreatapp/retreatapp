@@ -381,11 +381,11 @@ button {
     text-align: left;
     left: 3vw !important;
     margin-right: 40vw;
-    font-size: 20px !important;
   }
 
   .moverS > .title {
     margin-bottom: -10px !important;
+    font-size: 20px !important;
   }
 
   a,a:visited {
