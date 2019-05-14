@@ -24,6 +24,7 @@ a:hover {
 @font-face {
     font-family: 'Avenir';
     src: url(avenir.ttc);
+    src: url(avenir.otf);
     src: url(fonts/avenir.eot);
     src: url(fonts/avenir.eot?#iefix) format('embedded-opentype'),      
         url(fonts/avenir.woff) format('woff'),
