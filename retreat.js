@@ -142,7 +142,7 @@ Prismic.Api('https://startertest.prismic.io/api', function (err, Api) {
                       var top = image.top;
                       console.log(top);
 
-                      $(".moverS").css("top","-15vh");
+                      $(".moverS").css("top","-15%");
 
                      clearTimeout($.data(this, 'scrollTimer'));
                       $.data(this, 'scrollTimer', setTimeout(function() {
