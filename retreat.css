@@ -301,6 +301,7 @@ img:hover {
 }
 
 form {
+  padding-left: 3vw;
   color: white !important;
 }
 
@@ -368,6 +369,11 @@ button {
 
   .moverS > .title {
     top: 1.25vh;
+  }
+  .tim {
+    z-index: 999 !important;
+    left: 4vw !important;
+    width: 30vw !important;
   }
 }
 

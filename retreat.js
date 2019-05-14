@@ -39,6 +39,8 @@ Prismic.Api('https://startertest.prismic.io/api', function (err, Api) {
 
       }
 
+      $(".sign").hide();
+
 
       var targSpace = $("<div class='moverS'></div>");
 
@@ -63,6 +65,7 @@ Prismic.Api('https://startertest.prismic.io/api', function (err, Api) {
 
 
       $(".row:first > .images > .block-img:first > img").hide();
+      $(".sign:last").show();
 
 
 			if ($(window).width()>750) {
