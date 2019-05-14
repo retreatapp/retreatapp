@@ -1,15 +1,29 @@
 
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
 
 ::-webkit-scrollbar {
-    display: none;
+  width: .5vw;
+  border-radius: .25vw;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: .25vw;
+  width: .5vw;
 }
 
 ::-moz-scrollbar {
-    display: none;
+  background: white; 
+  border-radius: .25vw;
+  width: .5vw;
 }
 
 ::-scrollbar {
-    display: none;
+  background: white; 
+  border-radius: .25vw;
+  width: .5vw;
 }
 
 a,a:visited {
@@ -175,29 +189,6 @@ body {
   left: -20vw !important;
   margin-bottom: -2vh;
   z-index: -99;
-}
-
-img:hover {
-
-}
-
-.ani {
-  -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-  -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-  animation-name: example;
-  animation-duration: 4s;
-
-}
-
-  @-webkit-keyframes example {
-  from {width: 100vw;}
-  to {width: 50vw;}
-}
-
-/* Standard syntax */
-@keyframes example {
-  from {width: 100vw;}
-  to {width: 50vw;}
 }
 
 .hey {
