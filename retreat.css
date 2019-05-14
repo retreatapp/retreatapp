@@ -40,9 +40,8 @@ a:hover {
     src: url('avenir.ttc');
     src: url('avenir.otf');
     src: url('avenir.eot');
-    src: url('avenir.eot?#iefix') format('embedded-opentype'),      
-        url('avenir.woff') format('woff'),
-        url('avenir.ttf') format('truetype'),
+    src: url('avenir.woff') format('woff'); 
+    src: url('avenir.ttf') format('truetype');
 }
 
 .animate {
