@@ -23,12 +23,12 @@ a:hover {
 
 @font-face {
     font-family: 'Avenir';
-    src: url(avenir.ttc);
-    src: url(avenir.otf);
-    src: url(fonts/avenir.eot);
-    src: url(fonts/avenir.eot?#iefix) format('embedded-opentype'),      
-        url(fonts/avenir.woff) format('woff'),
-        url(fonts/avenir.ttf) format('truetype'),
+    src: url('avenir.ttc');
+    src: url('avenir.otf');
+    src: url('avenir.eot');
+    src: url('avenir.eot?#iefix') format('embedded-opentype'),      
+        url('avenir.woff') format('woff'),
+        url('avenir.ttf') format('truetype'),
 }
 
 .animate {
